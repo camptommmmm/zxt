@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		
+		<style>
+			
+			
+			
+			.img1{
+				-webkit-filter: grayscale(0);
+				animation: donghua3 3s;
+			}
+			@keyframes donghua3{
+				from{
+					-webkit-filter: grayscale(0);
+				}
+				to{
+					-webkit-filter: grayscale(1);
+				}
+			}
+			.img2{
+				-webkit-filter: brightness(1.5);
+				transition: all 3s;
+			}
+			.img2:hover{
+				-webkit-filter: brightness(0);
+			}
+			.img3{
+				-webkit-filter: blur(25px);
+				transition: all 2s;
+			}
+			
+			.img3:hover{
+				-webkit-filter: blur(0px);
+			}
+			.img4{
+				-webkit-filter: contrast(0.5);blur(5px); grayscale(0.5);
+			}
+			
+			.img5{
+				-webkit-filter: saturate(2);
+			}
+			
+			.img6{
+				-webkit-filter: sepia(1);grayscale(0.5);
+			}
+			
+			.img7{
+				/*色相旋转*/
+				-webkit-filter: hue-rotate(45deg);
+			}
+			
+			.img8{
+				-webkit-filter: invert(1);
+				animation: donghua 5s;
+			}
+			
+			@keyframes donghua{
+				from{
+					-webkit-filter: invert(1);
+				}
+				to{
+					-webkit-filter: invert(0);
+				}
+			}
+			
+			.img9{
+				animation: donghua2 10s;
+			}
+			
+			@keyframes donghua2{
+				0%{
+					-webkit-filter: brightness(10) grayscale(1);
+				}
+				80%{
+					-webkit-filter: brightness(1) grayscale(1);
+					
+				}
+				100%{
+					-webkit-filter: brightness(1) grayscale(0);
+				}
+			}
+			
+		</style>
+	</head>
+	<body>
+		
+	<img class="img1" src="img/timg.jpg">
+		<img class="img2" src="img/timg.jpg">
+		<img class="img3" src="img/timg.jpg">
+		<img class="img4" src="img/timg.jpg">
+		<img class="img5" src="img/timg.jpg">
+		<img class="img6" src="img/timg.jpg">
+		<img class="img7" src="img/timg.jpg">
+		<img class="img8" src="img/timg.jpg">
+		
+		
+		<img class="img9" src="img/timg.jpg">
+		
+	</body>
+</html>
